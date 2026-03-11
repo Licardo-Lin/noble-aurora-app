@@ -2,17 +2,18 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
+  display: 张粤苏
+  given: Yuesu Zhang
   family: Chien
   pronunciation: Chien Shiung Wu
   pronouns: she/her
 status:
-  icon: "☕️"
+  icon: ☕️
 role: Director of Cloud Infrastructure
 bio: >
   I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind optimization.
+  teams on edge computing, deep sea data center architecture, and hivemind
+  optimization.
 affiliations:
   - name: GenCoin
     url: https://www.example.com/
@@ -31,17 +32,19 @@ links:
 education:
   - degree: PhD Artificial Intelligence
     institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    start: 2016-01-01T00:00:00Z
+    end: 2020-12-31T00:00:00Z
+    summary: >
+      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe
+      Smith](https://example.com). Presented papers at 5 IEEE conferences with
+      the contributions being published in 2 Springer journals.
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: Read Thesis
+      url: https://example.com
   - degree: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+    start: 2016-01-01T00:00:00Z
+    end: 2020-12-31T00:00:00Z
     summary: |
       GPA: 3.8/4.0
 
@@ -51,8 +54,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - degree: BSc Artificial Intelligence
     institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+    start: 2016-01-01T00:00:00Z
+    end: 2020-12-31T00:00:00Z
     summary: |
       GPA: 3.4/4.0
 
@@ -63,7 +66,7 @@ education:
 experience:
   - role: Director of Cloud Infrastructure
     org: GenCoin
-    start: 2021-01-01
+    start: 2021-01-01T00:00:00Z
     summary: |
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -71,8 +74,8 @@ experience:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - role: Backend Software Engineer
     org: X
-    start: 2016-01-01
-    end: 2020-12-31
+    start: 2016-01-01T00:00:00Z
+    end: 2020-12-31T00:00:00Z
     summary: |
       Responsibilities include:
       - Migrated infrastructure to a new data center
@@ -110,23 +113,41 @@ awards:
     date: '2023-11-25'
     awarder: Coursera
     icon: brands/coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+    summary: >
+      I studied the foundational concept of neural networks and deep learning.
+      By the end, I was familiar with the significant technological trends
+      driving the rise of deep learning; build, train, and apply fully connected
+      deep neural networks; implement efficient (vectorized) neural networks;
+      identify key parameters in a neural network’s architecture; and apply deep
+      learning to your own applications.
   - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    url: >-
+      https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX
     icon: brands/edx
-    summary: |
+    summary: >
       Learned:
+
       - Synthesize your own blockchain solutions
+
       - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+
+      - Understand Bitcoin’s real-life applications and learn how to attack and
+      destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to
+      Bitcoin’s Proof-of-Work consensus algorithm
+  - title: Object-Oriented Programming in R
+    url: >-
+      https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
     certificate_url: https://www.datacamp.com
     date: '2023-01-21'
     awarder: datacamp
     icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    summary: >
+      Object-oriented programming (OOP) lets you specify relationships between
+      functions and the objects that they can act on, helping you manage
+      complexity in your code. This is an intermediate level course, providing
+      an introduction to OOP, using the S3 and R6 systems. S3 is a great
+      day-to-day R programming tool that simplifies some of the functions that
+      you write. R6 is especially useful for industry-specific analyses, working
+      with web APIs, and building GUIs.
